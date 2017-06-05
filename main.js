@@ -67,59 +67,59 @@ var statement = yourName + " is taking a class at The Iron Yard, my instructor's
 // 10.
 // We've created a variable named after each primitive type.
 // Use the `=` operator to assign a value to each variable matching the type in the name.
-var myNumber;
-var myString;
-var myBoolean;
+var myNumber = 10;
+var myString = "This is a string";
+var myBoolean = true;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
 var myUndefined;
-// A:
+// A: myUndefined is already undefined so no change.
 
 
 // For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
 
 // 11.
 var x = (false == 0);
-// A.
+// A. true
 
 
 // 12.
 var y = (false == "");
-// A.
+// A. true
 
 
 // 13.
 var z = (0 == "");
-// A.
+// A. true
 
 
 // 14.
 var a = (null == null);
-// A.
+// A. true
 
 
 // 25.
 var b = (undefined == undefined);
-// A.
+// A. true
 
 
 // 16.
 var c = (undefined == null);
-// A.
+// A. true
 
 
 // 17.
 var d = (null == false);
-// A.
+// A. false
 
 
 // 18.
 var e = (NaN == null);
-// A.
+// A. false
 
 
 // 19.
 var f = (NaN == NaN);
-// A.
+// A. false
 
 
 // 20.
@@ -128,7 +128,7 @@ var f = (NaN == NaN);
 // A:
 var thirsty = true;
 
-{
+if (thirsty){
   console.log("I'm parched!");
 } else {
   console.log("I've had enough to drink.");
@@ -144,7 +144,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 22.
@@ -153,7 +153,7 @@ if(""){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 23.
@@ -165,7 +165,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 24.
@@ -174,7 +174,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 25.
@@ -183,7 +183,7 @@ if(-5 && 5){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 26.
@@ -192,7 +192,7 @@ if("Hello World!"){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 27.
@@ -201,7 +201,7 @@ if({}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 28.
@@ -210,7 +210,7 @@ if({name: "Yehuda Katz"}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 29.
@@ -219,7 +219,7 @@ if(new Date()){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 30.
